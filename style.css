@@ -57,6 +57,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: -90px;
     }
 
     .conteundo-escrito {
@@ -106,7 +107,7 @@ body {
 
     .principal-imagem {
         height: 200px;
-        margin-right: 0px;
+        padding-right: 30px;
 
     }   
 
