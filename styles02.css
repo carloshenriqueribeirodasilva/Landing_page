@@ -24,16 +24,19 @@ header a {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 20px 0px 20px 0px;
   gap: 60px;
+
 }
 
 .top-images, .bottom-images {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 60px;
